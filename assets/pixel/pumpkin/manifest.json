@@ -1,0 +1,14 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "generate",
+  "file": "res://assets/pixel/pumpkin/pumpkin.png",
+  "prompt": "res://assets/pixel/pumpkin/prompt.txt",
+  "texture": "res://assets/pixel/pumpkin/pumpkin.tres",
+  "source": "/Users/alexander/.codex/generated_images/01a1a77c-27c1-7b40-af47-369b54470b69/exec-3733356d-aeb9-48b6-aa7a-f821a158068d.png",
+  "width": 1312,
+  "height": 1199,
+  "transparent": true,
+  "opaque_bounds_alpha_above_0_5": [102, 161, 1108, 924],
+  "region_with_padding": [94, 153, 1124, 940],
+  "inspection": "Original PNG viewed without transformation: one large orange pumpkin and one smaller fruit with broad green leaves and curling vines, no weapons, pots, ground or text. Godot Image confirmed corner and exterior alpha=0, central sprite alpha=0.992. Source image is preserved unchanged; transparent padding is removed only by AtlasTexture region."
+}

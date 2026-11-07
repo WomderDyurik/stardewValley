@@ -1,0 +1,33 @@
+{
+  "generator": "builtin image_gen",
+  "home": {
+    "path": "res://assets/pixel/landscapes/home.png",
+    "width": 1536,
+    "height": 1024,
+    "prompt": "res://assets/pixel/landscapes/home_prompt.txt",
+    "composition": "Warm orchard garden clearing; pond lower left, flowering apple tree upper right, weathered curved fence; playable center quiet."
+  },
+  "battle": {
+    "path": "res://assets/pixel/landscapes/battle.png",
+    "width": 1254,
+    "height": 1254,
+    "prompt": "res://assets/pixel/landscapes/battle_prompt.txt",
+    "composition": "Woodland clearing; canopy and roots upper left, broken fence lower left, stream lower right; playable center quiet; no baked road."
+  },
+  "filter": "nearest",
+  "inspection": "Both generated images visually inspected. No UI, lettering, characters, built-in planting beds or central road.",
+  "home_playable": {
+    "path": "res://assets/pixel/landscapes/home-playable.png",
+    "width": 1536,
+    "height": 1024,
+    "prompt": "res://assets/pixel/landscapes/home_playable_prompt.txt",
+    "edit_source": "res://assets/pixel/landscapes/home.png",
+    "planting_rectangle_normalized": [
+      0.04,
+      0.27,
+      0.81,
+      0.38
+    ],
+    "inspection": "Quiet grass in requested planting rectangle. Barrel/watering can moved to far right, dense left flora moved upward, pond stays lower left below planting area."
+  }
+}

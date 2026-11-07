@@ -1,0 +1,14 @@
+Use case: stylized-concept. Asset type: original game terrain tile atlas.
+The attached image is a STYLE REFERENCE for 3/4 overhead farming-RPG environment materials ONLY, not an edit target. Its dark overlay, yellow egg rings, characters, event furniture, logos, signs and map layout must NOT be copied. Make bright natural spring daylight.
+Create exactly EIGHT square seamless material tiles in a tight FOUR COLUMN by TWO ROW atlas, equal cells, no gutters, no borders, no labels, no text. Fill every cell completely with its own material. Entire image opaque. Hand-placed CRISP PIXEL ART with a shared logical 32 by 32 pixel tile grid per cell; every logical pixel enlarged as a square solid block, NO subpixel texture, no antialiasing, no blur, no painterly brushwork, no gradients. The tile textures must be readable and calm when repeated behind small crops. Flat base-color space around deliberately spaced small pixel clusters, not even all-over dotted noise. Four to six colors per material, rich natural spring greens, warm golden compacted earth, deep cool teal water, short shadows. Consistent light from upper left.
+ROW1 left to right:
+1 seamless SPRING GRASS, a calm rich meadow green base, occasional tiny darker leaf clumps and warm green short tufts, clear open flat regions, no individual flowers or stones.
+2 seamless SHADED GRASS, deeper cool leaf-green base, the same calm meadow texture in shade, no black or olive-grey.
+3 seamless GOLDEN DIRT, warm golden-ochre rural dirt with only a few sparse warm brown pebble strokes, mostly flat earth, no square pavers, no green grass.
+4 seamless TILLED SOIL, deep warm umber farm soil with gentle regular horizontal planted-earth furrows and small lighter soil clods, no plants, no grass.
+ROW2 left to right:
+5 seamless BEATEN EARTH FOOTPATH, lighter dusty golden earth smoothed by walking with subtle sparse small rounded pebbles, completely dirt, no pavers and no border.
+6 seamless POND WATER, calm clear medium teal-blue water with a few short cyan pixel wavelets, no shore, no fish, no lily pads.
+7 seamless VILLAGE PAVING, small irregular rounded grey-brown stones with moss in a few joints, flat orthographic top-down paving, softer contrast than buildings, no giant rectangular bricks.
+8 seamless GRASS WITH TINY FIELD FLOWERS, same base green as tile1, very sparse tiny white and muted purple flowers in small uneven clusters with plenty of calm grass.
+The eight tiles are original but belong in the same cohesive classic farming RPG world. Each tile is exactly one atlas cell, no overlap, no framing, no shadow around the atlas.

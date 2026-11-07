@@ -1,0 +1,19 @@
+{
+  "generator": "built-in image_gen",
+  "intent": "generate original meadow; edit density and contrast for gameplay readability",
+  "asset": "meadow-v2.png",
+  "use": "single whole-field grass texture, never tiled",
+  "render_rect": [
+    0,
+    118,
+    540,
+    634
+  ],
+  "source": "/Users/alexander/.codex/generated_images/01a1ad4a-0dbb-7723-a270-0f5302eae4f8/exec-15a51ae4-73c2-4244-b9dd-73ed5f83bf3e.png",
+  "prompts": [
+    "meadow-prompt.txt",
+    "meadow-refinement-prompt.txt"
+  ],
+  "reference": "User-provided tower-defense screenshot from 2026-11-05: grass material, soft volume and legible open field; no source map or characters inserted into game.",
+  "stone_renderer": "Asymmetric chipped flagstone polygons, variable 14-37px lengths, broad mineral faces and localized lower/right shadows. No uniform inset UI bevel. Geometry remains clipped to actual runtime road width."
+}

@@ -1,0 +1,51 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "generate",
+  "file": "res://assets/pixel/farm/ground-v1.png",
+  "prompt": "res://assets/pixel/farm/ground_prompt.txt",
+  "width": 1536,
+  "height": 1024,
+  "opaque": true,
+  "layout": "3 columns by 2 rows; exact512x512 terrain cells",
+  "source": "/Users/alexander/.codex/generated_images/01a1a564-07fb-75f2-a440-f408b3b7c5d3/exec-554cfe24-83e6-4ab8-bc98-3d5e89c3532d.png",
+  "regions": {
+    "ground_earth": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "ground_grass": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "ground_soil": [
+      1024,
+      0,
+      512,
+      512
+    ],
+    "ground_path": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "ground_water": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "ground_grass_dark": [
+      1024,
+      512,
+      512,
+      512
+    ]
+  },
+  "style": "Crisp, quiet, low-contrast16-bit farm terrain: warm earth, short-cluster grass, broken horizontal furrows, irregular sandstone paving, blue pond waves, darkergrass.",
+  "inspection": "Visually inspected full atlas. All six cells fill their512px square without gutters or labels, containing the requested terrain kinds. PNG has no alpha channel. Image preserved unchanged; source regions live in AtlasTexture resources."
+}

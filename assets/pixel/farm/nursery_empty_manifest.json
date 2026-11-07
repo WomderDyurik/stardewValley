@@ -1,0 +1,14 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "edit",
+  "file": "res://assets/pixel/farm/nursery-empty.png",
+  "prompt": "res://assets/pixel/farm/nursery_empty_prompt.txt",
+  "width": 1254,
+  "height": 1254,
+  "transparent": true,
+  "input": "res://assets/pixel/farm/props-v1.png",
+  "input_subject_region": [46, 540, 459, 467],
+  "source": "/Users/alexander/.codex/generated_images/01a1a57c-e7e2-7763-8de8-86c6a618a877/exec-ccb9765e-b7f5-4cc7-9f8a-beaa6e951f14.png",
+  "change": "Extracted the existing red-roof nursery hut as one isolated building and removed all plants, flowers, leaves, pots and planters from its facade and porch. Red roof, timber door, plaster walls and wooden porch are preserved.",
+  "inspection": "Visually inspected generated building: empty porch and no plants remain. Original generated PNG copied unchanged. Godot Image confirms alpha transparency around the building and opaque facade/door pixels."
+}

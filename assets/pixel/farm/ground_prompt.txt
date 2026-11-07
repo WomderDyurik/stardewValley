@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: opaque terrain tile texture atlas for a top-down 16-bit farming RPG.
+Primary request: exactly SIX seamless ground textures in a 3-column by 2-row grid, landscape image 1536x1024. Every cell is exactly512x512 and fills its complete cell with its texture. There are no margins, gutters, dividers, frames, grid lines, labels, buildings, plants, characters, objects, or UI.
+Each individual square texture represents a native32x32 source-pixel game tile expanded16x with nearest-neighbor. Show large deliberately square pixels and compact clusters, no smooth shapes or blur. All six textures are quiet and moderately detailed to sit behind tiny game sprites.
+Row1 column1: warm ochre dirt, main color #c59655, tiny sparse clustered pebbly earth flecks in two close shades. Plain farm earth, no paving, no large stones.
+Row1 column2: lively green farm grass, main color #91a64d, sparse short16-bit grass blades in small readable pixel clusters, quiet low contrast.
+Row1 column3: cultivated brown soil, main color #a46a38, short broken horizontal furrow rows with restrained darker brown creases and soft ochre ridge pixels. No plants.
+Row2 column1: warm irregular sandstone brick paving like an old farming village path, main color #c7ad76, compact small muted stone blocks with staggered joints, subtle darker edges, mostly flat readable top surface.
+Row2 column2: blue pond water, main color #558da0, a few thin2-source-pixel wave highlights in close aqua colors, subdued small ripples only. No objects, no shoreline, no reflections of scenery.
+Row2 column3: darker green farm grass, main color #718d3c, tiny spaced grass clusters in a few close tones.
+Style: crisp SNES-era farming RPG pixel art; visible square pixels, limited muted natural palette, flat colors with 2-3 nearby shade values per material. Perfect flat top-down ground; consistent32x32 pixel granularity across all six cells. Each cell individually tiles seamlessly on opposite edges when repeated.
+Constraints: OPAQUE full-bleed atlas, all pixels filled. Exact regular3x2 arrangement, one terrain type per cell, no transitions between cells.
+Avoid: painterly texture, gradients, photographic noise, smooth vector patterns, 3D depth, dramatic contrast, dense stipple, giant stones, ornamental borders, transparent backgrounds, checkerboard transparency, text, watermarks.

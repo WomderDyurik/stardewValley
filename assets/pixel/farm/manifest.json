@@ -1,0 +1,51 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "generate",
+  "file": "res://assets/pixel/farm/props-v1.png",
+  "prompt": "res://assets/pixel/farm/prompt.txt",
+  "width": 1536,
+  "height": 1024,
+  "transparent": true,
+  "layout": "3 columns by 2 rows; original 512x512 cells",
+  "source": "/Users/alexander/.codex/generated_images/01a1a564-07fb-75f2-a440-f408b3b7c5d3/exec-d1f1a8eb-c9be-4f28-8e86-e3b412001b70.png",
+  "style": "Coarse crisp top-down farming RPG pixel sprites with dark outlines, flat shadow clusters, and original designs based on supplied farm reference.",
+  "regions": {
+    "apple_tree": [
+      64,
+      24,
+      432,
+      472
+    ],
+    "tree": [
+      544,
+      29,
+      442,
+      463
+    ],
+    "cottage": [
+      1035,
+      24,
+      441,
+      463
+    ],
+    "nursery": [
+      46,
+      540,
+      459,
+      467
+    ],
+    "flower_bush": [
+      546,
+      640,
+      434,
+      324
+    ],
+    "well": [
+      1057,
+      565,
+      394,
+      445
+    ]
+  },
+  "inspection": "Viewed full output and read PNG alpha via Godot Image. All sampled cell background points have alpha=0; opaque sprite footprints are within respective 512px cells. PNG is preserved unchanged. Tight source regions are AtlasTexture definitions, not image edits."
+}

@@ -1,0 +1,13 @@
+Use case: stylized-concept. Asset type: original production pixel-art botanical sprites for a modern cozy mobile garden game.
+Create ONE transparent PNG sprite atlas, exactly FOUR columns by TWO rows, eight evenly spaced cells, generous transparent gutters. NO TEXT, NO cell lines, NO tile backgrounds, no ground platforms, no planters, no UI. Each cell has exactly one whole plant, from roots/low base to top leaves. A consistent 3/4 top-down view, foliage silhouettes gently irregular, lush organic curved leaf clusters. Beautiful readable hand-placed chunky pixel art at an intended 48–64 pixel sprite size, crisp pixel clusters and hard pixel edges. Warm plum-brown subtle outline, only 4–6 shades per material, warm light from upper left, dark blue-green foliage shadows, clear middle-value leaf highlights. Keep stems clear, leaf shapes broad, warm fruit accents. No black outlines, no noisy microdots, no photorealism, no vector art, no smooth 3D render, no blur or gradients. Coherent art direction inspired by lovingly crafted farming RPGs, entirely original.
+ROW 1 left to right:
+1 TOMATO: lush broad rounded tomato shrub on one slender natural stake, several large ripe scarlet tomatoes with warm highlights, short lower trunk visible.
+2 MARIGOLD: dense flowering marigold mound, five generous orange-gold flower heads, ferny deep green leaves, naturally asymmetric soft silhouette.
+3 CUCUMBER: climbing cucumber vine on a slender triangular wooden trellis, large broad leaves with TWO visible dark-green cucumbers, not a tall rectangular wall, graceful slight lean.
+4 STRAWBERRY: low spreading strawberry plant with broad three-leaf clusters, three glossy red strawberries and tiny white blossoms, compact full silhouette.
+ROW 2 left to right:
+5 CURRANT: round airy currant bush, arched woody stems, broad maple-like leaves, hanging clusters of deep burgundy-red berries, visibly different from tomato.
+6 MINT: upright aromatic mint clump, several distinct gentle curved stems with broad oval serrated leaves, fresh jade green, full botanic silhouette, no berries or flowers.
+7 PUMPKIN: two plump ribbed orange pumpkins nestled in a low sprawling curved vine, large sculpted blue-green leaves, one curling tendril, keep all in cell.
+8 WATERLILY: three overlapping floating round lily pads with visible notches, one cream-pink flower, broad natural silhouette, no water tile/bowl.
+All eight plants visually balanced in size and planted on same ground baseline in respective cell. All plants completely inside their own cells, no touching across gutters. Transparent alpha everywhere except the plant.

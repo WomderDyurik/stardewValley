@@ -1,0 +1,14 @@
+{
+  "generator": "built-in image_gen",
+  "reference": "User supplied jkkdt706xtdc1.png",
+  "source": "sprites-v1.png",
+  "prompt": "prompt.txt",
+  "processing": "Alpha-tight independent sprite regions, nearest-neighbor size normalization; original atlas retained",
+  "sprites": {
+    "barn": {"region": [147,45,359,544], "size": [48,72]},
+    "fence": {"region": [676,237,523,205], "size": [96,36]},
+    "hen": {"region": [177,781,279,321], "size": [16,20]},
+    "lantern": {"region": [879,707,124,460], "size": [16,48]},
+    "hedge": {"source": "hedge-source.png", "region": [23,126,1490,795], "size": [64,40], "prompt": "hedge-prompt.txt"}
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "crop_order": [
+    "tomato",
+    "marigold",
+    "cucumber",
+    "strawberry",
+    "currant",
+    "mint",
+    "pumpkin",
+    "waterlily"
+  ],
+  "defender_order": [
+    "nettle",
+    "lavender",
+    "pepper",
+    "lotus"
+  ],
+  "generator": "built-in image_gen",
+  "regions": {
+    "cucumber": [
+      910.0,
+      18.0,
+      367.0,
+      418.0
+    ],
+    "currant": [
+      17.0,
+      469.0,
+      412.0,
+      388.0
+    ],
+    "lavender_1": [
+      30.0,
+      431.0,
+      188.0,
+      252.0
+    ],
+    "lavender_2": [
+      362.0,
+      372.0,
+      264.0,
+      311.0
+    ],
+    "lavender_3": [
+      724.0,
+      363.0,
+      322.0,
+      320.0
+    ],
+    "lotus_1": [
+      15.0,
+      1141.0,
+      199.0,
+      245.0
+    ],
+    "lotus_2": [
+      362.0,
+      1086.0,
+      280.0,
+      300.0
+    ],
+    "lotus_3": [
+      724.0,
+      1086.0,
+      341.0,
+      302.0
+    ],
+    "marigold": [
+      461.0,
+      38.0,
+      414.0,
+      386.0
+    ],
+    "mint": [
+      471.0,
+      482.0,
+      368.0,
+      370.0
+    ],
+    "nettle_1": [
+      43.0,
+      97.0,
+      200.0,
+      229.0
+    ],
+    "nettle_2": [
+      362.0,
+      21.0,
+      272.0,
+      307.0
+    ],
+    "nettle_3": [
+      724.0,
+      7.0,
+      329.0,
+      322.0
+    ],
+    "pepper_1": [
+      27.0,
+      797.0,
+      209.0,
+      225.0
+    ],
+    "pepper_2": [
+      362.0,
+      734.0,
+      263.0,
+      291.0
+    ],
+    "pepper_3": [
+      724.0,
+      724.0,
+      326.0,
+      301.0
+    ],
+    "pumpkin": [
+      887.0,
+      506.0,
+      440.0,
+      353.0
+    ],
+    "strawberry": [
+      1334.0,
+      109.0,
+      415.0,
+      321.0
+    ],
+    "tomato": [
+      20.0,
+      18.0,
+      394.0,
+      409.0
+    ],
+    "waterlily": [
+      1346.0,
+      525.0,
+      397.0,
+      309.0
+    ]
+  },
+  "processing": "Original PNGs preserved. AtlasTexture regions follow the largest opaque component per cell; transparent virtual margins make defender frames square without squeezing botanical silhouettes.",
+  "weapon_muzzles_normalized": {
+    "nettle": [
+      [
+        [
+          0.81,
+          0.68
+        ]
+      ],
+      [
+        [
+          0.88,
+          0.75
+        ]
+      ],
+      [
+        [
+          0.72,
+          0.73
+        ],
+        [
+          0.92,
+          0.66
+        ]
+      ]
+    ],
+    "lavender": [
+      [
+        [
+          0.85,
+          0.71
+        ]
+      ],
+      [
+        [
+          0.91,
+          0.79
+        ]
+      ],
+      [
+        [
+          0.76,
+          0.8
+        ],
+        [
+          0.96,
+          0.7
+        ]
+      ]
+    ],
+    "pepper": [
+      [
+        [
+          0.84,
+          0.65
+        ]
+      ],
+      [
+        [
+          0.89,
+          0.71
+        ]
+      ],
+      [
+        [
+          0.75,
+          0.7
+        ],
+        [
+          0.94,
+          0.62
+        ]
+      ]
+    ],
+    "lotus": [
+      [
+        [
+          0.88,
+          0.75
+        ]
+      ],
+      [
+        [
+          0.89,
+          0.8
+        ]
+      ],
+      [
+        [
+          0.72,
+          0.83
+        ],
+        [
+          0.92,
+          0.73
+        ]
+      ]
+    ]
+  },
+  "overrides": {
+    "cucumber": {
+      "atlas": "cucumber-v2.png",
+      "resource": "cucumber.tres",
+      "region": [
+        36,
+        162,
+        1054,
+        1108
+      ],
+      "prompt": "cucumber-v2-prompt.txt",
+      "reason": "Opaque broad emerald foliage and visible green fruit, with pale trellis behind foliage."
+    }
+  }
+}

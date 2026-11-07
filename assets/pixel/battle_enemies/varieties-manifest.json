@@ -1,0 +1,24 @@
+{
+  "atlas": "varieties-v1.png",
+  "generator": "built-in image_gen",
+  "regions": {
+    "burrower": [
+      724,
+      33,
+      724,
+      620
+    ],
+    "healer": [
+      19,
+      79,
+      650,
+      568
+    ],
+    "soldier": [
+      1464,
+      92,
+      703,
+      555
+    ]
+  }
+}

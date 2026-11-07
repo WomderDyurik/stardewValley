@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: production-ready 2D farming RPG sprite atlas on a genuinely transparent background.
+Primary request: six original cohesive farm objects, in the crisp 16-bit pixel-art style of a top-down farming game. Real visible coarse square pixels, a limited palette and bold readable shapes. The attached reference shown in conversation is style guidance for its farm objects only: do not reproduce the phone browser, text, screenshot layout, or game characters.
+Composition: exactly THREE equal columns and TWO equal rows, six separate sprites centered in equal rectangular cells. Landscape atlas 1536x1024, each cell 512x512. All cells have transparent padding of at least 24 pixels so no sprite touches a cell boundary. No grid lines, no labels, no text.
+Row 1 left: apple tree, stout crooked brown trunk, broad green leaf-cluster canopy and five or six bright red apples. Full tree visible, front facing top-down RPG view.
+Row 1 middle: ordinary green farm tree, broad compact lobed canopy and visible short brown trunk, no fruit.
+Row 1 right: small timber garden cottage, teal-green gabled shingle roof viewed from above, honey-colored front wall, one centered wooden door, tiny square windows and two small flower pots. Whole building visible.
+Row 2 left: small garden nursery hut, red terracotta gabled roof viewed from above, pale plaster and wood front, front door with several small plant pots on its porch, compact rectangular footprint. Whole building visible.
+Row 2 middle: low flowering bush hedge, compact rounded green bush with pink and yellow flower clusters, whole bush visible.
+Row 2 right: small well, circular grey stone base with wooden posts and a simple brown gabled roof, tiny bucket.
+Style: every asset looks as if drawn at about 64x64 source-pixel resolution, then enlarged 6-8x with nearest-neighbor. Every shape has intentionally chunky square stair-step pixel edges, small flat shadow clusters, dark colored one-pixel-equivalent outlines, only 2-3 values per material. Consistent sunlight from upper left and top-down three-quarter farming RPG angle. Rich ochre wood, teal roof, muted lively greens, charcoal-brown outlines. Clear roofs visible from above, no isometric diamond grid.
+Constraints: exactly six isolated individual objects, actual transparent alpha background, no extra objects outside each sprite, no ground tile, no cast shadow outside the sprite footprint, no characters, no UI, no borders or logos.
+Avoid: painterly rendering, photographic textures, smooth digital painting, blurry edges, gradients, antialiasing, tiny high-frequency detail, shiny 3D models, ground scene, scenery panorama, white background, checkerboard pattern.

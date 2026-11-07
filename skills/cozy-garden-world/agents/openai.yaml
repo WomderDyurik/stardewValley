@@ -1,0 +1,4 @@
+interface:
+  display_name: "Уютные районы сада"
+  short_description: "Районы, водные посадки и читаемый фермерский мир"
+  default_prompt: "Используй $cozy-garden-world для доработки районов и посадок Planta2."

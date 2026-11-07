@@ -1,0 +1,19 @@
+{
+  "asset": "heart-tree-v1.png",
+  "generated_by": "built-in image_gen.imagegen",
+  "generated_on": "2026-11-06",
+  "sha256": "5d0f2c11061ffb494dd310f9ee5347c50a0b94cac7e7490fa68258e00e730f47",
+  "width": 1163,
+  "height": 1352,
+  "png_color_type": 6,
+  "transparent_background_requested": true,
+  "transforms": "none; original generated PNG copied into project; rendered with nearest filtering",
+  "world_rect": [
+    608,
+    144,
+    192,
+    240
+  ],
+  "purpose": "Original flowering garden landmark and seat opening the real garden progress journal",
+  "prompt_file": "prompt.txt"
+}

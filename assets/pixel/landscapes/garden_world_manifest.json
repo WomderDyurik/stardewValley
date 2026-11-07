@@ -1,0 +1,55 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "generate",
+  "file": "res://assets/pixel/landscapes/garden-world.png",
+  "prompt": "res://assets/pixel/landscapes/garden_world_prompt.txt",
+  "width": 1422,
+  "height": 1106,
+  "opaque": true,
+  "logical_world_size": [1800, 1400],
+  "draw_filter": "nearest",
+  "inspection": "Visually inspected the generated image. One continuous garden estate with four districts, curved connecting earth paths, grassy clearings for dynamic planting/buildings, and a natural lower-right pond. No UI, text, characters, preplanted beds, or large central buildings.",
+  "clearings_normalized": {
+    "garden": {
+      "center": [0.267, 0.271],
+      "quiet_grass_rect": [0.10, 0.12, 0.32, 0.31],
+      "notes": "Upper-left cultivated district. Twelve dynamic beds can occupy the calm grass; decorative trees and flowers remain on its boundary."
+    },
+    "nursery": {
+      "center": [0.75, 0.29],
+      "quiet_grass_rect": [0.635, 0.20, 0.23, 0.18],
+      "peripheral_workbench_center": [0.81, 0.15],
+      "notes": "Upper-right nursery with peripheral pots, sacks, flower hedges, and a small wooden work area. Center grass is free for an interactive dynamic building or workbench."
+    },
+    "greenhouse": {
+      "center": [0.26, 0.74],
+      "quiet_grass_rect": [0.12, 0.61, 0.28, 0.23],
+      "notes": "Lower-left clearing. A greenhouse at logical world center(470,1060) lies on quiet grass. The flowering arch sits outside the clearing at its upper-left edge."
+    }
+  },
+  "landmarks_normalized": {
+    "pond": {
+      "center": [0.70, 0.72],
+      "water_bounds_approx": [0.53, 0.54, 0.34, 0.33],
+      "logical_world_center_approx": [1260, 1008],
+      "notes": "Irregular shoreline. Water reaches farther left than the requested center. Treat this rectangle as approximate visual data, not a collision polygon."
+    },
+    "pond_bench": {
+      "center": [0.89, 0.64],
+      "logical_world_center_approx": [1602, 896]
+    },
+    "pond_stepping_stones": {
+      "center": [0.79, 0.75],
+      "logical_world_center_approx": [1422, 1050]
+    },
+    "central_path_junction": {
+      "center": [0.43, 0.48],
+      "logical_world_center_approx": [774, 672]
+    }
+  },
+  "integration": {
+    "render_rect": [0, 0, 1800, 1400],
+    "retain_dynamic": ["planting beds", "greenhouse sprite", "nursery interaction", "district labels", "camera", "UI"],
+    "notes": "The source aspect ratio closely matches1800/1400. Render as a single texture over the logical world. Existing app UI should remain in screen coordinates while this image pans with the garden camera."
+  }
+}

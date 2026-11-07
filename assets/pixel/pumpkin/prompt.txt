@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: one production 2D farming RPG crop sprite on a genuinely transparent background.
+Primary request: a single compact pumpkin plant for a cozy top-down pixel-art garden game. One large ripe orange pumpkin and one smaller pumpkin grow together among broad deep-green leaves, short curling vines and a small stem. Low and bushy, not a tall tree.
+Style/medium: deliberate crisp 16-bit farming RPG pixel art, as if drawn at about 64x64 source pixels then enlarged with nearest-neighbor. Visible coarse square pixel clusters, dark colored outlines, only 2-3 shades per material. Warm orange fruit with clear pumpkin ribs and a readable small highlight, lively green leaves. Same 3/4 top-down farm view as a playable vegetable sprite.
+Composition/framing: exactly one isolated whole plant centered, all leaves and pumpkins fully visible, a compact wide silhouette occupying about 75 percent of a square image, safe transparent padding all around. Roots sit near the lower middle. Designed to remain legible when drawn at 32x32 in game.
+Lighting: soft simple light from upper left, flat sprite shading.
+Constraints: actual transparent alpha outside the plant, no pot, no basket, no weapon, no face, no ground patch, no scene, no UI, no text, no labels, no watermark, no grid lines. No large shadow outside the plant.
+Avoid: painterly or photographic texture, smooth 3D rendering, blurry edges, glow, grass landscape, checkerboard background.

@@ -1,0 +1,96 @@
+{
+  "atlas": "res://assets/pixel/plants.png",
+  "width": 2172,
+  "height": 724,
+  "alpha": true,
+  "generator": "builtin image_gen",
+  "style": "Original cozy 16-bit farming RPG pixel art. The last three plants are visibly armed turrets.",
+  "nominal_equal_cells": [
+    {
+      "kind": "tomato",
+      "region": [
+        0.0,
+        0,
+        434.4,
+        724
+      ]
+    },
+    {
+      "kind": "marigold",
+      "region": [
+        434.4,
+        0,
+        434.4,
+        724
+      ]
+    },
+    {
+      "kind": "nettle",
+      "region": [
+        868.8,
+        0,
+        434.4,
+        724
+      ]
+    },
+    {
+      "kind": "lavender",
+      "region": [
+        1303.2,
+        0,
+        434.4,
+        724
+      ]
+    },
+    {
+      "kind": "pepper",
+      "region": [
+        1737.6,
+        0,
+        434.4,
+        724
+      ]
+    }
+  ],
+  "note": "Generated spacing is slightly irregular. Use recommended_regions or the supplied AtlasTexture resources, not nominal_equal_cells, to avoid cutting a neighboring sprite.",
+  "recommended_regions": {
+    "tomato": [
+      35,
+      100,
+      364,
+      500
+    ],
+    "marigold": [
+      443,
+      100,
+      341,
+      500
+    ],
+    "nettle": [
+      820,
+      100,
+      449,
+      500
+    ],
+    "lavender": [
+      1274,
+      100,
+      399,
+      500
+    ],
+    "pepper": [
+      1713,
+      100,
+      449,
+      500
+    ]
+  },
+  "resources": {
+    "tomato": "res://assets/pixel/tomato.tres",
+    "marigold": "res://assets/pixel/marigold.tres",
+    "nettle": "res://assets/pixel/nettle.tres",
+    "lavender": "res://assets/pixel/lavender.tres",
+    "pepper": "res://assets/pixel/pepper.tres"
+  },
+  "draw_filter": "CanvasItem.TEXTURE_FILTER_NEAREST"
+}

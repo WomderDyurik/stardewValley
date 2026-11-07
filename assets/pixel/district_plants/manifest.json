@@ -1,0 +1,56 @@
+{
+  "generator": "built-in image_gen",
+  "atlas": "district-plants-v1.png",
+  "regions": {
+    "cucumber": [
+      6,
+      6,
+      431,
+      431
+    ],
+    "strawberry": [
+      449,
+      6,
+      432,
+      431
+    ],
+    "currant": [
+      893,
+      6,
+      431,
+      431
+    ],
+    "mint": [
+      1336,
+      6,
+      432,
+      431
+    ],
+    "waterlily": [
+      6,
+      449,
+      431,
+      432
+    ],
+    "lotus_1": [
+      449,
+      449,
+      432,
+      432
+    ],
+    "lotus_2": [
+      893,
+      449,
+      431,
+      432
+    ],
+    "lotus_3": [
+      1336,
+      449,
+      432,
+      432
+    ]
+  },
+  "transparent": true,
+  "source": "exec-0bb75ee4-536b-4b03-96ca-c4ec8bb9299f.png"
+}

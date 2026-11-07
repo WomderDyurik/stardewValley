@@ -1,0 +1,59 @@
+{
+	"file": "res://assets/pixel/scenery/props.png",
+	"filter": "nearest",
+	"generator": "builtin image_gen",
+	"has_alpha": true,
+	"height": 887,
+	"note": "Eight original props, two rows of four. Regions include a 3px transparent safety margin; original PNG is unchanged.",
+	"regions": {
+		"barrel": [
+			25,
+			495,
+			415,
+			334
+		],
+		"bench": [
+			1330,
+			509,
+			421,
+			315
+		],
+		"bush": [
+			37,
+			50,
+			392,
+			358
+		],
+		"butterfly": [
+			916,
+			488,
+			352,
+			325
+		],
+		"daisies": [
+			484,
+			63,
+			376,
+			327
+		],
+		"mushrooms": [
+			938,
+			109,
+			320,
+			278
+		],
+		"rocks": [
+			475,
+			548,
+			380,
+			249
+		],
+		"sign": [
+			1385,
+			75,
+			319,
+			327
+		]
+	},
+	"width": 1774
+}

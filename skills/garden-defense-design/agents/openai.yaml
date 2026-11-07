@@ -1,0 +1,4 @@
+interface:
+  display_name: "Логика и геймдизайн обороны сада"
+  short_description: "Волны, роли, экономика и понятные решения в бою"
+  default_prompt: "Используй $garden-defense-design для проработки и проверки боёв Planta2."

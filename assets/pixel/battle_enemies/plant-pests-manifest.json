@@ -1,0 +1,30 @@
+{
+  "atlas": "plant-pests-v1.png",
+  "generator": "built-in image_gen",
+  "regions": {
+    "leafroller": [
+      662,
+      198,
+      495,
+      332
+    ],
+    "leafroller_guard": [
+      64,
+      776,
+      505,
+      360
+    ],
+    "whitefly": [
+      72,
+      152,
+      487,
+      382
+    ],
+    "wireworm": [
+      651,
+      839,
+      513,
+      287
+    ]
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "title": "20 ориентиров первого впечатления для Planta2",
+  "accessed": "2026-11-06",
+  "selection": {
+    "type": "Кураторская сравнительная выборка, не универсальный рейтинг и не топ по одной метрике.",
+    "rationale": "17 PC/консольных фермерских и близких life-sim игр с заметной публичной обратной связью Steam; Animal Crossing как крупный островной ориентир; Hay Day и Township как массовые мобильные примеры. Включены разные способы связать быт, строительство, существ и приключение. Graveyard Keeper намеренно оставлен контрастным соседним примером.",
+    "metric_limit": "Англоязычные отзывы Steam, все отзывы Ooblets, рейтинги US App Store и проданные экземпляры Nintendo имеют разный охват. Их нельзя складывать или использовать как общий рейтинг. Числа — снимок доступной страницы на дату чтения; кэш и регион могут давать различия.",
+    "five_minute_limit": "Реальные первые пять минут каждой игры не были заново сыграны и хронометрированы. Поле first_five_minutes — проектная реконструкция короткого крючка на основании официально заявленной петли и визуальной подачи, а не утверждение о точной последовательности обучения.",
+    "causal_limit": "Публичные описания, отзывы и скриншоты не доказывают причинное влияние композиции на удержание, продажи или движение взгляда.",
+    "visual_method": "Осмотрены первые два доступных официальных Steam-скриншота 17 игр; две официальные рекламные карточки App Store Hay Day и Township; официальный ключевой арт Animal Crossing. Медиа получены из публичных API/официального CDN только в /private/tmp для исследования; не внедрены в игру.",
+    "visual_contact_sheets": [
+      "/private/tmp/planta2-farm-visual-research/contact-1.png",
+      "/private/tmp/planta2-farm-visual-research/contact-2.png",
+      "/private/tmp/planta2-farm-visual-research/contact-3.png",
+      "/private/tmp/planta2-farm-visual-research/contact-4.png"
+    ]
+  },
+  "synthesis": [
+    {
+      "id": "role",
+      "title": "Сначала место и роль",
+      "basis": [
+        "Stardew Valley",
+        "Animal Crossing: New Horizons",
+        "My Time at Portia",
+        "Fields of Mistria",
+        "Ooblets"
+      ],
+      "inference": "Первый кадр должен объяснить, кто я и о каком месте забочусь. Для Planta2: дом, реальные первые культуры и понятные ворота защиты.",
+      "acceptance": "На нативном кадре видны один главный жилой ориентир, активная посадка и одно направление дальнейшей деятельности; они не конкурируют с четырьмя равными пустыми пашнями."
+    },
+    {
+      "id": "small_change",
+      "title": "Маленькое завершённое изменение",
+      "basis": [
+        "Hay Day",
+        "Farm Together 2",
+        "Coral Island",
+        "Littlewood",
+        "Roots of Pacha"
+      ],
+      "inference": "Следующий шаг — короткое действие с видимым результатом, а большое поле остаётся перспективой. Это гипотеза темпа для проверки, не метрика удержания.",
+      "acceptance": "Сбор, посадка или улучшение имеют различимый ответ; ближайшая цель основана на реальном состоянии и обещает конкретную пользу."
+    },
+    {
+      "id": "place_hierarchy",
+      "title": "Регулярные посадки внутри разнообразного пейзажа",
+      "basis": [
+        "Stardew Valley",
+        "Sun Haven",
+        "Dinkum",
+        "Fae Farm",
+        "Graveyard Keeper"
+      ],
+      "inference": "Грядки могут оставаться точной сеткой6×6, а крупные природные массы, рабочие уголки и маршруты делают районы разными.",
+      "acceptance": "Все реальные ячейки доступны; поля не окружены одинаковыми массивными каменными рамками; у воды, мастерской и дома разные силуэты."
+    },
+    {
+      "id": "living_identity",
+      "title": "Растение должно быть персонажем своей роли",
+      "basis": [
+        "STORY OF SEASONS: Friends of Mineral Town",
+        "Ooblets",
+        "Slime Rancher 2",
+        "Rune Factory 4 Special"
+      ],
+      "inference": "Узнаваемый силуэт и маленькая реакция создают связь сада с боем. Характер растения передаётся без ложных компаньонов и декоративного прогресса.",
+      "acceptance": "Первый защитник узнаётся и в саду, и в бою; обычные культуры не выдаются за оружие, пустые слоты не получают взрослые растения."
+    },
+    {
+      "id": "honest_progress",
+      "title": "Честное обещание следующего места",
+      "basis": [
+        "Coral Island",
+        "Disney Dreamlight Valley",
+        "Roots of Pacha",
+        "Township"
+      ],
+      "inference": "Показать ближайшее реальное открытие полезнее общей массы незаполненной земли. Тексты, карта и модель обязаны обещать одно и то же.",
+      "acceptance": "Цель и счётчик выводятся из состояния; после первой победы пруд действительно становится доступен, сохранённые растения и уровни сохраняются."
+    }
+  ],
+  "games": [
+    {
+      "index": 1,
+      "game": "Stardew Valley",
+      "category": "Пиксельная ферма и жизнь в сообществе",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/413150/",
+          "accessed": "2026-11-06"
+        },
+        {
+          "title": "Developer About",
+          "url": "https://www.stardewvalley.net/about/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 396864,
+        "positive_percent": 98,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Унаследованная заросшая ферма превращается в дом; заявлены культуры, животные, ремесло, навыки, общение и исследование шахт.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Из маленького личного хозяйства сделать любимое место, к которому возвращаются."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "В первом официальном кадре дом, сарай, двор с животными и компактные ряды культур образуют несколько разных карманов; тропы связывают двери. Второй кадр резко меняет настроение на тёмную шахту с локальным светом.",
+        "manifest": {
+          "app_id": 413150,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Первое собственное преобразование: расчистить небольшой участок, посадить семена и увидеть свой порядок рядом с ещё дикой землёй."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Регулярная полезная сетка внутри нерегулярного жилого двора; тёплая земля отделена от зелёных масс."
+      },
+      "adopt_for_planta2": [
+        "Первый кадр: дом + несколько настоящих культур + понятное направление к приключению.",
+        "Оставлять будущее развитие в природе, а не показывать всю вместимость сплошным пустым пашенным ковром."
+      ],
+      "avoid_for_planta2": [
+        "Не копировать чужие здания и персонажей.",
+        "Не превращать все места в одинаковые замкнутые прямоугольники."
+      ]
+    },
+    {
+      "index": 2,
+      "game": "Animal Crossing: New Horizons",
+      "category": "Остров, персонализация и сообщество",
+      "sources": [
+        {
+          "title": "Official developer / platform store",
+          "url": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+          "accessed": "2026-11-06"
+        },
+        {
+          "title": "Nintendo IR sales",
+          "url": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Worldwide consolidated unit sales",
+        "count": 50630000,
+        "as_of": "2026-09-30",
+        "source": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
+      },
+      "verified_source_fact": "Nintendo описывает жизнь на собственном острове, выбор мест домов, сбор природных материалов, ремесло, дружбу, украшение и последующее изменение ландшафта.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Это мой остров, и маленькие решения постепенно делают его моим домом."
+      },
+      "visual_evidence": {
+        "status": "Observed official key art; not gameplay",
+        "observation": "Осмотрен официальный ключевой арт, а не игровой кадр: палатки и персонажи собраны у воды; склоны, речка и разные высоты создают обрамление и глубину.",
+        "manifest": {
+          "file": "/private/tmp/planta2-farm-visual-research/extra-manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Выбрать своё место и сразу присвоить его через маленькое действие: расположить предмет, собрать материал, обустроить первый угол."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Камерные жилые карманы в большом природном контуре; смена тесного места и открытого вида."
+      },
+      "adopt_for_planta2": [
+        "Один узнаваемый угол дома и отдыха до показа большого поля.",
+        "Уникальный природный ориентир в общем узле и несколько спокойных пауз."
+      ],
+      "avoid_for_planta2": [
+        "Не переносить реальное ожидание суток в темп Planta2.",
+        "Не путать красивый ключевой арт с доказательством реального первого экрана."
+      ]
+    },
+    {
+      "index": 3,
+      "game": "STORY OF SEASONS: Friends of Mineral Town",
+      "category": "Классическая ферма и отношения",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/978780/",
+          "accessed": "2026-11-06"
+        },
+        {
+          "title": "Publisher About Mineral Town",
+          "url": "https://storyofseasons.games/mineral-town/about-mineral-town/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 3311,
+        "positive_percent": 93,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальный сайт связывает наследство фермы с уходом за культурами и животными, дружбой и жизнью городка.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Простая сельская жизнь с существами и людьми, которым нужен мой уход."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый магазинный кадр показывает близкий контакт героя с курицей у маленького курятника; второй — разговор персонажей в жилом интерьере. Крупные лица и животные важнее площади поля.",
+        "manifest": {
+          "app_id": 978780,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Небольшой акт заботы с ответом от живого существа, затем первая понятная работа на участке."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Крупные дружелюбные силуэты, небольшие дворы, понятный вход и предмет заботы рядом."
+      },
+      "adopt_for_planta2": [
+        "Живое окружение у дома: куры, садовник, мягкая реакция мира.",
+        "Сделать первого защитника характерным существом, а не безликой пушкой с числом."
+      ],
+      "avoid_for_planta2": [
+        "Не закрывать карту длинным вступительным диалогом.",
+        "Не увеличивать декор так, чтобы он перекрывал реальные ячейки."
+      ]
+    },
+    {
+      "index": 4,
+      "game": "Hay Day",
+      "category": "Мобильная ферма и производство",
+      "sources": [
+        {
+          "title": "Official developer / platform store",
+          "url": "https://supercell.com/en/games/hayday/",
+          "accessed": "2026-11-06"
+        },
+        {
+          "title": "Official App Store publisher description",
+          "url": "https://apps.apple.com/us/app/hay-day/id506627515",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "US App Store ratings",
+        "count": 655000,
+        "positive": null,
+        "rating": 4.7,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Supercell подчёркивает безопасный уход за землёй; культуры не погибают. Описание магазина связывает сбор и посев с кормлением животных, производством и заказами.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Карманная сельская жизнь, где один урожай превращается в следующую маленькую возможность."
+      },
+      "visual_evidence": {
+        "status": "Observed official App Store promotional cards; not onboarding",
+        "observation": "Осмотрены официальные рекламные карточки App Store: крупные морды животных продают настроение; игровая вставка показывает короткие ряды, животных и постройки единым компактным хозяйством.",
+        "manifest": {
+          "file": "/private/tmp/planta2-farm-visual-research/extra-manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Собрать видимый урожай, получить ясную отдачу и сразу понять, куда пойдёт собранное."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Цепочка предметов с понятным назначением; крупные культуры и животные, короткие расстояния между действиями."
+      },
+      "adopt_for_planta2": [
+        "Сбор должен иметь заметную локальную реакцию и понятную следующую цель.",
+        "Сохранять безопасный сад и крупные доступные действия."
+      ],
+      "avoid_for_planta2": [
+        "Не переносить платные ускорения, производственные часы и агрессивные события.",
+        "Не выдавать рекламную композицию за наблюдение обучения."
+      ]
+    },
+    {
+      "index": 5,
+      "game": "Township",
+      "category": "Мобильный город и ферма",
+      "sources": [
+        {
+          "title": "Official developer / platform store",
+          "url": "https://apps.apple.com/us/app/township/id638689075",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "US App Store ratings",
+        "count": 2200000,
+        "rating": 4.8,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальное описание объединяет строительство города, выращивание культур, производственные здания и украшение; текущая версия также рекламирует отдельные головоломки.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Мой небольшой урожай заметно развивает поселение."
+      },
+      "visual_evidence": {
+        "status": "Observed official App Store promotional cards; not onboarding",
+        "observation": "В первых официальных вертикальных карточках крупные овощи, транспорт и сарай соединены в одну сцену; стрелка и короткий глагол указывают на действие. Это рекламная подача.",
+        "manifest": {
+          "file": "/private/tmp/planta2-farm-visual-research/extra-manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Короткая цепочка урожай → полезная поставка → видимое развитие знакомого места."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Чёткие функциональные объекты и транспортные связи, контраст между малыми культурами и крупной целью."
+      },
+      "adopt_for_planta2": [
+        "Показывать, что открывает ближайшая победа или улучшение.",
+        "Дать воротам и теплице собственную визуальную роль и ясный следующий шаг."
+      ],
+      "avoid_for_planta2": [
+        "Не смешивать обещание фермы с чужим игровым жанром в рекламе.",
+        "Не импортировать плотность уведомлений, валют и платных событий."
+      ]
+    },
+    {
+      "index": 6,
+      "game": "Farm Together 2",
+      "category": "Совместное выращивание и украшение",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/2418520/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 2036,
+        "positive_percent": 94,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальное описание обещает путь от малого участка к большой ферме, культуры, животных, расширения, украшения, городские запросы и изменение рельефа.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Сам создам красивое хозяйство, а потом покажу его другим."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый официальный кадр — близкая ухоженная тыквенная грядка с героем; второй — большой разнообразный пейзаж с водоёмами, загонами, деревьями и разными уровнями.",
+        "manifest": {
+          "app_id": 2418520,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Маленький участок уже выглядит завершённым; следующая покупка добавляет новый выразительный кусочек."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Повторяемые полезные участки вписаны в ландшафт, дальние ориентиры обещают масштаб."
+      },
+      "adopt_for_planta2": [
+        "Сначала законченная малая сцена, затем панорама возможностей.",
+        "Добавлять характер районов через материалы и окружение, сохраняя порядок посадок."
+      ],
+      "avoid_for_planta2": [
+        "Не принимать громадную зрелую ферму за подходящий стартовый экран.",
+        "Не заполнять пустую карту декоративными взрослыми культурами."
+      ]
+    },
+    {
+      "index": 7,
+      "game": "Sun Haven",
+      "category": "Фантазийная ферма и RPG",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1432860/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 13406,
+        "positive_percent": 83,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Магазин связывает ферму с магией, монстрами, развитием навыков и разными поселениями; заявлены настройки удобства и отсутствие шкалы выносливости.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Выращивание — часть волшебного приключения, а не отдельная бухгалтерия."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Официальные кадры: насыщенный хозяйственный двор рядом с яркой рекой; затем персонаж в камерном лесном месте между плотными холодными деревьями и большим магическим существом.",
+        "manifest": {
+          "app_id": 1432860,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Обычное маленькое действие открывает намёк на необычную силу или существо."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Сильная смена характера мест; холодная природная рамка и один яркий волшебный акцент."
+      },
+      "adopt_for_planta2": [
+        "Один красивый ботанический ориентир у перехода от сада к защите.",
+        "Показывать родство культуры в саду и её роли в бою."
+      ],
+      "avoid_for_planta2": [
+        "Не делать весь экран одинаково ярким и детальным.",
+        "Не расширять каталог механик раньше, чем читается основной цикл."
+      ]
+    },
+    {
+      "index": 8,
+      "game": "Coral Island",
+      "category": "Ферма и восстановление острова",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1158160/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 14332,
+        "positive_percent": 89,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальное описание объединяет ферму, сообщество и восстановление окружающих коралловых рифов.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Уход за своим местом помогает восстановить больший живой мир."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр группирует животных, сараи, деревья и отдельные малые цветочные грядки; второй показывает подводную среду с крупным сияющим событием среди тёмного дна.",
+        "manifest": {
+          "app_id": 1158160,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Очистить или оживить небольшой кусок мира и получить заметное изменение среды."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Контраст ухоженного двора и отдельного природного местообитания; цель видна в самом ландшафте."
+      },
+      "adopt_for_planta2": [
+        "Пруд должен обещать отдельную деятельность и растения ещё до открытия.",
+        "Награда победы меняет узнаваемое место, а не только счётчик монет."
+      ],
+      "avoid_for_planta2": [
+        "Не изображать доступные водные посадки на суше.",
+        "Не обещать восстановление большого мира одной косметической вспышкой."
+      ]
+    },
+    {
+      "index": 9,
+      "game": "My Time at Portia",
+      "category": "Мастерская и сообщество",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/666140/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 12125,
+        "positive_percent": 91,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Наследуемая мастерская восстанавливается через сбор ресурсов, изготовление и заказы жителей.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Я полезный мастер, и моя работа улучшает город."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Один кадр ставит героя и дерево перед узнаваемым городским силуэтом; другой показывает раскрытый производственный чертёж с предметом и ингредиентами.",
+        "manifest": {
+          "app_id": 666140,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Собрать немного материала и закончить первый осязаемый предмет для понятной цели."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Крупный ориентир вдалеке и близкий рабочий объект; визуальная связь рецепта с результатом."
+      },
+      "adopt_for_planta2": [
+        "Установки теплицы должны показывать назначение, рост и пользу рядом с собой.",
+        "Ближайшая цель связывает действие с конкретным изменением участка."
+      ],
+      "avoid_for_planta2": [
+        "Не вводить длинные рецептурные цепочки ради удержания.",
+        "Не прятать смысл улучшения за общим словом 'уровень'."
+      ]
+    },
+    {
+      "index": 10,
+      "game": "My Time at Sandrock",
+      "category": "Мастерская в выразительном ландшафте",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1084600/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 9366,
+        "positive_percent": 94,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Игрок прибывает как новый строитель: собирает ресурсы, строит машины, помогает сообществу и защищает его от монстров.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "В тяжёлом, но красивом месте моя работа возвращает жизнь."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Оба официальных кадра используют песок и красные скалы как спокойную крупную массу; дерево, башня, персонажи и действие образуют отчётливые акценты.",
+        "manifest": {
+          "app_id": 1084600,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Получить небольшую практическую задачу, сделать видимый предмет и почувствовать роль в сообществе."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Доминирующий материал региона, уникальный силуэт горизонта, редкие яркие живые точки."
+      },
+      "adopt_for_planta2": [
+        "Три района Planta2 должны отличаться крупной формой и опорным объектом.",
+        "Бой защищает знакомое место, что объясняется подготовкой и результатом."
+      ],
+      "avoid_for_planta2": [
+        "Не вводить нехватку воды или выносливость в безопасный сад.",
+        "Не делать все поля одинаковыми только ради геометрической чистоты."
+      ]
+    },
+    {
+      "index": 11,
+      "game": "Dinkum",
+      "category": "Поселение в природном мире",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1062520/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 15873,
+        "positive_percent": 93,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальный магазин описывает остров в духе Австралии, сбор ресурсов, ферму и постепенное расширение городка.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Из дикого места появится моё живое поселение."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Дневной кадр показывает компактный обустроенный участок, цветники, кухню и теплицу в природном окружении; ночной повтор того же места меняет настроение локальными огнями.",
+        "manifest": {
+          "app_id": 1062520,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Присвоить маленькую площадку и получить первое полезное сооружение рядом с природой."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Небольшие композиционные комнаты без тяжёлых стен; локальный свет и повторное узнавание места."
+      },
+      "adopt_for_planta2": [
+        "Обустроенный угол рядом с домом и более дикая внешняя граница.",
+        "Небольшие спокойные анимации окружения вместо сплошного декоративного шума."
+      ],
+      "avoid_for_planta2": [
+        "Не превращать всё свободное пространство в симметричную парковку.",
+        "Не добавлять ночную темноту, если она ухудшает мобильное чтение посадок."
+      ]
+    },
+    {
+      "index": 12,
+      "game": "Disney Dreamlight Valley",
+      "category": "Восстановление мира и знакомые персонажи",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1401590/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 15973,
+        "positive_percent": 91,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальное описание объясняет исчезновение прежней гармонии Забытьём и колючками; игрок возвращает магию через задания, исследование и повседневные действия.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Вернуть жизнь любимому волшебному месту."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр связывает маленькую грядку и героя с крупным праздничным зданием на возвышении; второй — постановочная сцена на ковре, а не обычный фермерский интерфейс.",
+        "manifest": {
+          "app_id": 1401590,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Убрать видимый маленький след упадка и увидеть отклик места или персонажа."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Герой и маленькое действие на переднем плане; большой ориентир сообщает дальнее обещание."
+      },
+      "adopt_for_planta2": [
+        "У ворот нужен ясный намёк на цель защиты и дальнейшее открытие.",
+        "Первые действия дают локальный визуальный ответ без долгих объяснений."
+      ],
+      "avoid_for_planta2": [
+        "Не рассчитывать на чужую узнаваемую интеллектуальную собственность.",
+        "Не подменять реальные механики красивой постановочной картинкой."
+      ]
+    },
+    {
+      "index": 13,
+      "game": "Rune Factory 4 Special",
+      "category": "Ферма и приключение с общей прогрессией",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1580240/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 1111,
+        "positive_percent": 91,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальный пролог описывает падение героя на дружелюбного дракона и новую жизнь в замке; ферма, общение, ремесло и опасные подземелья соединены одной ролью.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Тихая жизнь и настоящие приключения поддерживают друг друга."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр — крупный разговор персонажей в ухоженном городе; второй — бой с большим растительным существом в зелёном пространстве с заметными вспышками.",
+        "manifest": {
+          "app_id": 1580240,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Сразу обозначить необычную роль героя, затем дать короткое безопасное действие с перспективой приключения."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Безопасный социальный центр и отдельная опасная зона; крупный силуэт угрозы."
+      },
+      "adopt_for_planta2": [
+        "Одни и те же реальные растения узнаются в мирном саду и в бою.",
+        "Чёткая граница между безопасным развитием и добровольной защитой."
+      ],
+      "avoid_for_planta2": [
+        "Не переносить урон, порчу или потерю уровней в сад.",
+        "Не перегружать первый экран всеми RPG-параметрами."
+      ]
+    },
+    {
+      "index": 14,
+      "game": "Roots of Pacha",
+      "category": "Ферма и развитие сообщества",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1245560/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 2518,
+        "positive_percent": 94,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Развитие общины описывается через идеи, одомашнивание культур, дружбу с животными и совместное расширение деревни.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Маленькое полезное открытие улучшает жизнь моего сообщества."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр окружает общий костёр и площадку мягкими посадками и водными каналами; второй показывает карту, где поселение — несколько разных функциональных групп внутри природы.",
+        "manifest": {
+          "app_id": 1245560,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Сделать вклад, который приводит к новой понятной общей возможности."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Общий центр сообщества и окружающие небольшие рабочие группы; вода соединяет композицию."
+      },
+      "adopt_for_planta2": [
+        "Общий садовый узел как место отдыха и понятного выбора следующего занятия.",
+        "Открытие нового места объяснять пользой, а не только увеличением вместимости."
+      ],
+      "avoid_for_planta2": [
+        "Не делать двадцать одинаковых районов с разными названиями.",
+        "Не имитировать экономический прогресс декоративными взрослыми посадками."
+      ]
+    },
+    {
+      "index": 15,
+      "game": "Fields of Mistria",
+      "category": "Пиксельная ферма, восстановление и магия",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/2142790/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 26249,
+        "positive_percent": 97,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Город предлагает заросшее хозяйство в обмен на помощь после землетрясения; заявлены ферма, отношения, магия, животные и приключения.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Мой уютный дом станет частью восстановления красивого мира."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый официальный кадр: каменный дом, большое свободное травяное пространство, небольшие грядки, две выразительные цветущие кроны и редкий бытовой декор. Второй — другой характер места у воды и мельницы.",
+        "manifest": {
+          "app_id": 2142790,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Сделать первое маленькое хозяйственное действие, уже видя красоту места и возможность его роста."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Спокойный фон, ясные крупные контуры, короткие границы и один цветочный акцент."
+      },
+      "adopt_for_planta2": [
+        "Убрать ощущение обязательных 288 пустых работ из первого впечатления.",
+        "Дать траве, цветам и отдельным предметам образ дома вокруг строгих6×6 ячеек."
+      ],
+      "avoid_for_planta2": [
+        "Не спутать пастельность с отсутствием контраста интерактивных объектов.",
+        "Не копировать чужую палитру без проверки наших существующих спрайтов."
+      ]
+    },
+    {
+      "index": 16,
+      "game": "Fae Farm",
+      "category": "Магическая ферма и обустройство дома",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/2230110/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 1844,
+        "positive_percent": 77,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Магазин связывает выращивание, ремесло, украшение и исследование волшебного острова; новые области открываются по ходу восстановления мира.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Быт и магия делают мой маленький дом особенным."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр собирает короткие ряды культур вокруг центральной деревянной тропы, инструменты и постройки тесно связаны; второй — камерная обжитая комната с одним ярким ковром.",
+        "manifest": {
+          "app_id": 2230110,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Посадить или изготовить один предмет и сразу увидеть уютный результат на своём месте."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Небольшие рабочие островки, мягкая периферия и сильная центральная ось действия."
+      },
+      "adopt_for_planta2": [
+        "Делать тропы ради действий, а не ради обвода каждого логического района.",
+        "Ставить инструменты в небольшие смысловые группы у своих рабочих мест."
+      ],
+      "avoid_for_planta2": [
+        "Не дробить каждый пустой слот собственной массивной рамкой.",
+        "Не добавлять магические частицы поверх целевой области нажатия."
+      ]
+    },
+    {
+      "index": 17,
+      "game": "Littlewood",
+      "category": "Восстановление города после приключения",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/894940/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 5127,
+        "positive_percent": 93,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Мир уже спасён; дальнейшая игра посвящена восстановлению городка, занятиям и отношениям. Пожелания жителей могут касаться высоты, деревьев и воды.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "После большого приключения можно построить свой хороший мир."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Кадр показывает простые крупные плитки, террасы и маленькие функциональные места между домами; второй выделяет коллекцию внутри понятного инвентаря.",
+        "manifest": {
+          "app_id": 894940,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Переставить или построить маленький объект и немедленно увидеть личный вклад в поселение."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Простая графика с ясной функциональной планировкой; вариация высот вместо богатого шумного материала."
+      },
+      "adopt_for_planta2": [
+        "Читаемая карта важнее количества деталей; у каждой площадки есть функция.",
+        "После боя возвращать взгляд к спокойному развивающемуся дому."
+      ],
+      "avoid_for_planta2": [
+        "Не принимать низкую детализацию за разрешение на одинаковые пустые квадраты.",
+        "Не вводить ещё один большой инвентарь до необходимости."
+      ]
+    },
+    {
+      "index": 18,
+      "game": "Graveyard Keeper",
+      "category": "Контрастный пример: ремесло и чёрный юмор",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/599140/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 17935,
+        "positive_percent": 84,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Игра официально продаётся как управление средневековым кладбищем с сомнительными решениями и хозяйственным расширением; это сравнительный сосед жанра, а не чистый пример уюта.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Необычная профессия превращает знакомые хозяйственные задачи в историю."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр использует узкую реку, мост и диагональные природные края для маршрута; второй — каменную мастерскую, свет у входа и отдельную маленькую грядку.",
+        "manifest": {
+          "app_id": 599140,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Показать необычную роль и дать одну конкретную рабочую проблему."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Маршрут задаёт природная преграда и мост; локальный свет делает мастерскую ориентиром."
+      },
+      "adopt_for_planta2": [
+        "Использовать речку и мост как ориентир, а не случайный декоративный зигзаг.",
+        "Оригинальная роль садовых защитников сильнее одной копии фермерского быта."
+      ],
+      "avoid_for_planta2": [
+        "Не переносить мрачность, жестокость и циничную экономику в Planta2.",
+        "Не использовать плотную грязную текстуру там, где нужна читаемая грядка."
+      ]
+    },
+    {
+      "index": 19,
+      "game": "Ooblets",
+      "category": "Ферма, существа и мягкое соревнование",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/593150/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam all reviews",
+        "count": 1393,
+        "positive_percent": 91,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официально соединяет выращивание существ из семян, ферму и коллекционирование; столкновения решаются танцевальными соревнованиями.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Я выращиваю друзей с характером, а затем действую вместе с ними."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Первый кадр показывает героя, разных существ и яркие культуры рядом с домом; второй — круг существ в танцевальной сцене. Живые силуэты соединяют оба занятия.",
+        "manifest": {
+          "app_id": 593150,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Получить или вырастить одного характерного спутника и увидеть его особое действие."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Малое личное хозяйство и отдельная сцена состязания; персонажная идентичность важнее площади."
+      },
+      "adopt_for_planta2": [
+        "Первый выросший защитник получает короткую узнаваемую реакцию и понятную роль.",
+        "Растение выглядит родственным своему боевому воплощению."
+      ],
+      "avoid_for_planta2": [
+        "Не делать бой обезличенной диаграммой урона.",
+        "Не обещать зверьков-компаньонов, если наша модель выращивает растения."
+      ]
+    },
+    {
+      "index": 20,
+      "game": "Slime Rancher 2",
+      "category": "Существа, ранчо и исследование",
+      "sources": [
+        {
+          "title": "Official Steam store",
+          "url": "https://store.steampowered.com/app/1657630/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "footprint": {
+        "kind": "Steam English reviews",
+        "count": 24084,
+        "positive_percent": 94,
+        "as_of": "2026-11-06"
+      },
+      "verified_source_fact": "Официальное описание связывает новые виды слаймов, исследование Радужного острова, консерваторию и доход для расширений и оборудования.",
+      "opening_visual_promise": {
+        "status": "design interpretation",
+        "text": "Каждое найденное существо — одновременно эмоция, коллекция и новая возможность хозяйства."
+      },
+      "visual_evidence": {
+        "status": "Observed official gameplay screenshots",
+        "observation": "Оба кадра насыщены крупными округлыми слаймами на переднем плане; стеклянная архитектура и холодные скалы дают общий мир, но главный мотив — живое существо с простым выразительным лицом.",
+        "manifest": {
+          "app_id": 1657630,
+          "file": "/private/tmp/planta2-farm-visual-research/manifest.json"
+        }
+      },
+      "first_five_minutes": {
+        "status": "Design inference; not replayed or timed",
+        "hook": "Увидеть, подобрать и применить одно необычное существо; получить короткую понятную отдачу."
+      },
+      "spatial_device": {
+        "status": "Interpretation of viewed official media",
+        "text": "Домашний центр с видом на более широкий мир; крупный эмоциональный объект на тихом фоне."
+      },
+      "adopt_for_planta2": [
+        "Показывать характер растения через силуэт, покачивание и отдачу, а не десяток иконок.",
+        "Дать из сада ясный видимый намёк на интерес за воротами."
+      ],
+      "avoid_for_planta2": [
+        "Не заливать всю сцену одинаковым неоном.",
+        "Не переносить хаос физического ранчо в точные мобильные зоны нажатия."
+      ]
+    }
+  ]
+}

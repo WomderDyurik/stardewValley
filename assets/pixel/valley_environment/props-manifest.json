@@ -1,0 +1,86 @@
+{
+  "atlas": "props-v2.png",
+  "generator": "built-in image_gen",
+  "processing": "Original alpha PNG preserved; AtlasTexture regions contain the largest opaque component in each cell.",
+  "reference": "Stardew Valley Fandom EggsEvenYear bright daytime image; original farming village interpretation without egg/event/map overlays",
+  "regions": {
+    "barrel": [
+      100,
+      822,
+      167,
+      213
+    ],
+    "bench": [
+      1107,
+      816,
+      291,
+      204
+    ],
+    "bush": [
+      725,
+      490,
+      337,
+      193
+    ],
+    "cottage": [
+      45,
+      35,
+      302,
+      327
+    ],
+    "fence": [
+      1133,
+      497,
+      266,
+      171
+    ],
+    "greenhouse": [
+      756,
+      83,
+      303,
+      274
+    ],
+    "mailbox": [
+      829,
+      811,
+      115,
+      222
+    ],
+    "nursery": [
+      404,
+      82,
+      283,
+      275
+    ],
+    "tree_pine": [
+      435,
+      391,
+      211,
+      323
+    ],
+    "tree_pink": [
+      23,
+      405,
+      322,
+      309
+    ],
+    "tree_round": [
+      1101,
+      20,
+      317,
+      342
+    ],
+    "well": [
+      413,
+      763,
+      261,
+      299
+    ]
+  },
+  "source_reference": "https://stardewvalley.fandom.com/ru/wiki/ДжоджаМарт?file=Расположение_яиц_чётные_года.png",
+  "prompts": [
+    "props-prompt.txt",
+    "props-v2-cleanup-prompt.txt"
+  ],
+  "alpha_validation": "Native rendering on grass and earth shows clean silhouettes. Saturated red hidden RGB values in transparent pixels are not visible in Godot. artifacts/valley-props-alpha-native.png compares v1/v2 on both materials."
+}

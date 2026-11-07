@@ -1,0 +1,47 @@
+Mode: built-in ImageGen. Final workspace assets: terrain-v2.png and props-v2.png. Original PNG alpha preserved; Godot AtlasTexture regions stored in manifests.
+
+
+terrain-v2-prompt.txt
+Use case: stylized-concept. Asset type: original game terrain tile atlas.
+The attached image is a STYLE REFERENCE for 3/4 overhead farming-RPG environment materials ONLY, not an edit target. Its red egg circles, characters, event furniture, logos, signs and map layout must NOT be copied. Preserve the reference's bright daytime golden earth, fresh meadow green and clear blue river palette. Make bright natural spring daylight.
+Create exactly EIGHT square seamless material tiles in a tight FOUR COLUMN by TWO ROW atlas, equal cells, no gutters, no borders, no labels, no text. Fill every cell completely with its own material. Entire image opaque. Hand-placed CRISP PIXEL ART with a shared logical 32 by 32 pixel tile grid per cell; every logical pixel enlarged as a square solid block, NO subpixel texture, no antialiasing, no blur, no painterly brushwork, no gradients, NO stippling or microdithering. Use hard areas of flat color and generous quiet space, no all-over speckle texture. The tile textures must be readable and calm when repeated behind small crops. Flat base-color space around deliberately spaced small pixel clusters, not even all-over dotted noise. Four to six colors per material, rich natural spring greens, warm golden compacted earth, clear bright cool blue water, short shadows. Consistent light from upper left.
+ROW1 left to right:
+1 seamless SPRING GRASS, a calm rich meadow green base, very sparse tiny darker leaf clumps and short tufts, at least 85 percent open flat color regions, no individual flowers or stones.
+2 seamless SHADED GRASS, deeper cool leaf-green base, the same calm meadow texture in shade, no black or olive-grey.
+3 seamless GOLDEN DIRT, warm golden-ochre rural dirt with only a few sparse warm brown pebble strokes, mostly flat earth, no square pavers, no green grass.
+4 seamless TILLED SOIL, deep warm umber farm soil with gentle regular horizontal planted-earth furrows and small lighter soil clods, no plants, no grass.
+ROW2 left to right:
+5 seamless BEATEN EARTH FOOTPATH, lighter dusty golden earth smoothed by walking with subtle sparse small rounded pebbles, completely dirt, no pavers and no border.
+6 seamless POND WATER, bright clear sky-blue river water around hex #599BCC with a few short lighter blue pixel wavelets, no shore, no fish, no lily pads.
+7 seamless VILLAGE PAVING, small irregular rounded grey-brown stones with moss in a few joints, flat orthographic top-down paving, softer contrast than buildings, no giant rectangular bricks.
+8 seamless GRASS WITH TINY FIELD FLOWERS, same base green as tile1, very sparse tiny white and muted purple flowers in small uneven clusters with plenty of calm grass.
+The eight tiles are original but belong in the same cohesive classic farming RPG world. Each tile is exactly one atlas cell, no overlap, no framing, no shadow around the atlas.
+
+
+props-prompt.txt
+Use case: stylized-concept. Asset type: original farming-RPG environment sprite atlas.
+The attached image is a STYLE REFERENCE for village architecture, tree silhouettes and 3/4 top-down projection ONLY, not an edit target. Keep its bright golden-earth and fresh emerald-grass daytime palette, warm terracotta architecture and cool teal tree shadows. Do NOT copy the red egg circles, festival decorations, characters, text, signs, specific named shops, or map composition. No dark overlay. Bright soft spring daytime.
+Create an ORIGINAL transparent PNG sprite atlas exactly FOUR COLUMNS by THREE ROWS, twelve equal square cells with generous transparent gutters. One complete isolated object per cell, same front-facing 3/4 overhead orthographic projection. No grid, no cell background, no floor tiles, no text, no characters, no planted crop decorations. Cohesive hand-placed CRISP PIXEL ART based on a logical 16-pixel tile vocabulary: visible square pixel clusters, 4–6 shades per material, warm brown outlines (no heavy black), light upper left, cool shadows, no blur, no gradients, no smooth vector or painterly 3D details. Architecture has convincing roof depth and human-sized doors/windows rather than toy-like triangular icons. Buildings should have slightly asymmetrical secondary volumes, readable wood/stone joins and compact porches; shadows short and local to foundations. Leaves form dense overlapping color masses with rhythm, not spheres or isolated outlined balls. Each full object remains completely inside its cell.
+ROW1 left to right:
+1 small COTTAGE: cream limewashed walls with exposed warm timber, warm terracotta tiled roof with deep front gable and a small side roof section, wooden porch, two blue-green windows, simple teal front door, tiny chimney, NO potted plants or signs.
+2 GARDEN NURSERY SHED: warm honey wood board facade, deep forest-green shingle roof, centered wooden double door and side glazed work window, small awning with exposed rafters, modest stone footing, no crops or signage.
+3 GREENHOUSE: low warm stone base and slender wood framing, gently pitched glass roof with turquoise blue-green transparent-looking glass panels and restrained reflections, front glass door, EMPTY interior, no potted crops or climbing plants.
+4 BROADLEAF TREE: tall brown branched trunk and dense irregular broad green canopy, deep cool dark foliage beneath warm sunlit leaf clusters, broad branching silhouette, roots visible, no fruit.
+ROW2 left to right:
+5 SPRING BLOSSOM TREE: natural branching trunk, dense soft lilac-pink canopy with a few visible green leaf clusters, fully pixel art, no falling petals or extra background.
+6 SLENDER PINE: layered asymmetric dark forest-green branches, narrow tall silhouette, visible warm trunk/root base, 3/4 overhead village-tree style.
+7 HEDGEROW BUSH: low wide irregular leafy shrub, dense deep green shadow core and larger warm green sunlit foliage clusters, no flowers or berries, natural base.
+8 LOW WOOD FENCE SECTION: a horizontal small fence with THREE thin rounded tall wood pickets and two slim connecting rails, naturally light golden honey-brown wood, facing front, short depth, not stone, not a stockade.
+ROW3 left to right:
+9 WOOD BARREL: one ordinary round dark oak rain barrel with two metal hoops and visible ellipse lid, small compact prop, no flowers or crops.
+10 STONE WELL: small round grey-brown stone well with a compact timber post frame and a little dark terracotta pitched roof, simple hanging bucket, full object visible, no surrounding scenery.
+11 MAILBOX: one small muted blue-green curved metal mailbox on a slender wooden post, little closed flap, no symbols or text, compact.
+12 WOOD BENCH: simple warm weathered wood two-seat garden bench with narrow back slats, front-facing 3/4 overhead, no cushions, no flowers, no people.
+Full transparent alpha between sprites. Keep all twelve objects distinct with consistent pixel density, lighting and materials, suitable to place on the same original farming game map.
+
+
+props-v2-cleanup-prompt.txt
+Edit the attached transparent pixel-art atlas. Preserve the exact FOUR COLUMNS by THREE ROWS arrangement, all twelve complete objects, their original designs, their crisp pixel-art style, lighting, relative scale and orientation. This is a precise edge cleanup, not a redesign.
+REMOVE EVERY bright saturated red annotation-like fleck, scribble, fringe, halo and stray pixel outside the twelve objects and along their transparent cutout boundaries. Also remove unnatural neon-green cutout fringes. The red speckles around the cottage/greenhouse/trees/fence/well are contamination, NOT part of the art. Clean transparent alpha must extend immediately outside the actual natural object silhouettes. Absolutely no red circles, red outlines, colored halos, solid red masks or loose detached flecks anywhere in the transparent gutters.
+KEEP the real terracotta roof tiles warm orange-brown, KEEP the natural pink blossom tree pink, KEEP windows turquoise and the existing natural wood/green foliage colors. Do not erase real material colors or make the art dull. Keep the twelve objects in order: cottage, wooden nursery, empty glass greenhouse, green broadleaf tree / pink blossom tree, pine, bush, wood fence / barrel, well, mailbox, bench. All full objects remain within their cells, separated by generous clean transparent gaps.
+Return a production-ready transparent PNG atlas with impeccably clean antialias-free pixel silhouettes and no edge contamination. No text, no frames, no new objects.

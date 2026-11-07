@@ -1,0 +1,63 @@
+{
+  "generator": "built-in image_gen",
+  "source": "helpers-v1.png",
+  "sprites": {
+    "compost_1": [
+      65,
+      532,
+      224,
+      243
+    ],
+    "compost_2": [
+      381,
+      486,
+      311,
+      289
+    ],
+    "compost_3": [
+      767,
+      458,
+      454,
+      316
+    ],
+    "harvest_crate_1": [
+      38,
+      924,
+      241,
+      267
+    ],
+    "harvest_crate_2": [
+      348,
+      872,
+      345,
+      320
+    ],
+    "harvest_crate_3": [
+      772,
+      836,
+      448,
+      362
+    ],
+    "irrigation_1": [
+      90,
+      129,
+      231,
+      238
+    ],
+    "irrigation_2": [
+      425,
+      77,
+      303,
+      309
+    ],
+    "irrigation_3": [
+      816,
+      42,
+      398,
+      357
+    ]
+  },
+  "sha256": "b3cd4479abdff9d4d341d0ddace8dc0a9ac5dbe37b49a92e87b6710a40dd634b",
+  "prompt": "prompt.txt",
+  "frame_method": "AtlasTexture regions measured on alpha>=0.18, original PNG preserved"
+}

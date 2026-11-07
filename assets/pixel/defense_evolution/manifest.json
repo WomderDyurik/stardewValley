@@ -1,0 +1,135 @@
+{
+  "generator": "builtin image_gen",
+  "mode": "generate",
+  "file": "res://assets/pixel/defense_evolution/defense-stages-v1.png",
+  "prompt": "res://assets/pixel/defense_evolution/prompt.txt",
+  "width": 1254,
+  "height": 1254,
+  "transparent": true,
+  "layout": "3 columns by 3 rows; full 418x418 source cells preserve stable rooted body scale across stages",
+  "rows": {
+    "0": "nettle green leaf cannon",
+    "1": "lavender purple mortar",
+    "2": "pepper red cannon"
+  },
+  "stages": {
+    "1": "small single barrel",
+    "2": "large single barrel",
+    "3": "two large parallel barrels with two distinct muzzle openings"
+  },
+  "regions": {
+    "nettle_1": [
+      0,
+      0,
+      418,
+      418
+    ],
+    "nettle_2": [
+      418,
+      0,
+      418,
+      418
+    ],
+    "nettle_3": [
+      836,
+      0,
+      418,
+      418
+    ],
+    "lavender_1": [
+      0,
+      418,
+      418,
+      418
+    ],
+    "lavender_2": [
+      418,
+      418,
+      418,
+      418
+    ],
+    "lavender_3": [
+      836,
+      418,
+      418,
+      418
+    ],
+    "pepper_1": [
+      0,
+      836,
+      418,
+      418
+    ],
+    "pepper_2": [
+      418,
+      836,
+      418,
+      418
+    ],
+    "pepper_3": [
+      836,
+      836,
+      418,
+      418
+    ]
+  },
+  "source": "/Users/alexander/.codex/generated_images/01a1a59f-136b-7792-9e2d-6a8bbca29c87/exec-6118c528-b953-4941-b7a9-dbffb23873a7.png",
+  "inspection": "Viewed all nine sprites. Each row has exactly one small barrel, then one substantially larger barrel, then exactly two clearly visible parallel large barrels. Original PNG copied unchanged. Full cell regions deliberately preserve base scale and weapon-size evolution; do not independently tight-fit each stage.",
+  "alpha_inspection": "Godot Image.detect_alpha=2. Cell corners alpha=0 except isolated 1/255 values. Every opaque root baseline is local y=389; all three stages per row align exactly when rendering full 418px source cells.",
+  "opaque_bounds_local_alpha_gt_half": {
+    "nettle_1": [
+      51,
+      108,
+      299,
+      282
+    ],
+    "nettle_2": [
+      33,
+      52,
+      330,
+      338
+    ],
+    "nettle_3": [
+      15,
+      52,
+      368,
+      338
+    ],
+    "lavender_1": [
+      42,
+      113,
+      303,
+      277
+    ],
+    "lavender_2": [
+      18,
+      52,
+      345,
+      338
+    ],
+    "lavender_3": [
+      14,
+      52,
+      369,
+      338
+    ],
+    "pepper_1": [
+      43,
+      114,
+      296,
+      276
+    ],
+    "pepper_2": [
+      24,
+      53,
+      339,
+      337
+    ],
+    "pepper_3": [
+      10,
+      53,
+      373,
+      337
+    ]
+  }
+}

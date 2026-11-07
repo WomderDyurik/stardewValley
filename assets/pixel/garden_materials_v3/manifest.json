@@ -1,0 +1,86 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-11-06",
+  "grass_reused": "../battle_meadow_v2/meadow-v2.png",
+  "assets": {
+    "earth-v3.png": {
+      "source": "/Users/alexander/.codex/generated_images/01a1ad87-c915-7681-a03a-9e09ff0810e1/exec-87e59ebd-2e2b-4a8f-976c-a03b60ff8bc6.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "a55ed518b918f2fbdaec06b7ea9573468709def8aef088a6a1cfcc0f432a520a",
+      "mean_rgb_bands": {
+        "left": [
+          218.66,
+          151.88,
+          73.91
+        ],
+        "right": [
+          218.62,
+          151.97,
+          73.93
+        ],
+        "top": [
+          219.6,
+          153.18,
+          74.37
+        ],
+        "bottom": [
+          217.79,
+          150.98,
+          73.49
+        ],
+        "center": [
+          218.84,
+          151.74,
+          73.41
+        ]
+      },
+      "prompt": "earth-prompt.txt"
+    },
+    "soil-v3.png": {
+      "source": "/Users/alexander/.codex/generated_images/01a1ad87-c915-7681-a03a-9e09ff0810e1/exec-be36f594-8fa2-48d4-99cd-b8669485b190.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "8d1f01e41de613c9edcbaf71e7dc6aab71fdf71873a66664de5aac4933cd2749",
+      "mean_rgb_bands": {
+        "left": [
+          66.28,
+          30.64,
+          18.43
+        ],
+        "right": [
+          66.05,
+          30.66,
+          18.45
+        ],
+        "top": [
+          66.63,
+          30.97,
+          18.55
+        ],
+        "bottom": [
+          65.91,
+          30.5,
+          18.38
+        ],
+        "center": [
+          65.16,
+          30.02,
+          17.97
+        ]
+      },
+      "prompt": "soil-prompt.txt"
+    }
+  },
+  "constraints": [
+    "uniform diffuse overall lighting, no center highlight or vignette",
+    "opaque raw materials only; no planted crops, props or illustrated bed border",
+    "furrows and all actual planting geometry remain runtime code",
+    "selected generator outputs copied unchanged; originals retained"
+  ],
+  "inspection": "Both final PNGs visually inspected for original pixel style, quiet material grain, absence of objects and absence of obvious global lighting gradient. Sampled 1/16 edge bands and central half using read-only Godot Image pixels; earth band averages vary by under 2.3 RGB units, soil by under 1.6. This checks absence of a global light grid, not mathematical periodicity; integration uses mirrored repeat to join edge values. Native integration review remains required."
+}

@@ -1,0 +1,16 @@
+{
+  "source": "sprites-v1.png",
+  "generator": "built-in image_gen",
+  "prompt": "prompt.txt",
+  "reference": "User supplied Stardew-Valley-Screenshots.webp; portrait game composition retained by request",
+  "processing": "Alpha-tight independent sprite regions, nearest-neighbor size normalization; original atlas retained",
+  "sprites": {
+    "cottage": {"region": [30, 47, 491, 445], "size": [160, 112]},
+    "oak": {"region": [594, 24, 356, 473], "size": [64, 96]},
+    "chest": {"region": [1110, 123, 325, 292], "size": [32, 28]},
+    "scarecrow": {"region": [160, 557, 204, 431], "size": [28, 56]},
+    "sprinkler": {"region": [624, 644, 288, 220], "size": [32, 24]},
+    "mailbox": {"region": [1205, 562, 141, 411], "size": [20, 48]},
+    "caretaker": {"source": "caretaker-source.png", "region": [178, 73, 729, 1317], "size": [24, 40], "prompt": "caretaker-prompt.txt"}
+  }
+}

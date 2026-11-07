@@ -1,0 +1,57 @@
+{
+  "atlas": "terrain-v2.png",
+  "generator": "built-in image_gen",
+  "reference": "Exact bright-daytime Stardew Valley Fandom EggsEvenYear image, original material interpretation without event markers",
+  "regions": {
+    "ground_earth": [
+      887,
+      0,
+      443,
+      443
+    ],
+    "ground_flower_grass": [
+      1330,
+      443,
+      444,
+      444
+    ],
+    "ground_grass": [
+      0,
+      0,
+      443,
+      443
+    ],
+    "ground_grass_dark": [
+      443,
+      0,
+      444,
+      443
+    ],
+    "ground_path": [
+      0,
+      443,
+      443,
+      444
+    ],
+    "ground_soil": [
+      1330,
+      0,
+      444,
+      443
+    ],
+    "ground_stone": [
+      887,
+      443,
+      443,
+      444
+    ],
+    "ground_water": [
+      443,
+      443,
+      444,
+      444
+    ]
+  },
+  "prompt": "terrain-v2-prompt.txt",
+  "source_reference": "https://stardewvalley.fandom.com/ru/wiki/ДжоджаМарт?file=Расположение_яиц_чётные_года.png"
+}

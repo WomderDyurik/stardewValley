@@ -1,0 +1,31 @@
+# Godot local cache and export output
+.godot/
+builds/
+build/
+export_templates/
+
+# Machine-local and signing files
+*.tmp
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+export_credentials.cfg
+*.keystore
+*.p12
+*.pfx
+*.mobileprovision
+
+# Generated visual audits: retain current showcases and images linked by docs.
+/artifacts/*
+!/artifacts/garden-experience-final-*.png
+!/artifacts/battle-redesign-final-stage*.png
+!/artifacts/square-beds-final-full-garden-junction.png
+!/artifacts/square-beds-final-full-greenhouse-default.png
+!/artifacts/square-beds-final-overview-empty.png
+!/artifacts/square-beds-final-overview-full.png
+!/artifacts/square-beds-final-overview-real.png
+!/artifacts/square-beds-final-real-garden.png
+!/artifacts/square-beds-final-real-greenhouse.png
+!/artifacts/square-beds-final-real-pond.png
